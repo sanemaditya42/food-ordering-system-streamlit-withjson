@@ -1,0 +1,21 @@
+{
+    "77b677dc": {
+        "username": "aditya",
+        "items": {
+            "Margherita": {
+                "price": 200,
+                "qty": 1
+            },
+            "Paneer Pizza": {
+                "price": 300,
+                "qty": 1
+            },
+            "Coke": {
+                "price": 50,
+                "qty": 1
+            }
+        },
+        "total": 550,
+        "date": "19-11-2025 00:01"
+    }
+}
