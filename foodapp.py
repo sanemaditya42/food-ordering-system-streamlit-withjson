@@ -103,6 +103,8 @@ else:
     choice = st.sidebar.radio("Navigation", ["Menu", "Cart", "Order History"])
 
     # ----- MENU PAGE -----
+    Improved formatting between sections for readability
+
     if choice == "Menu":
         st.subheader("📖 Menu")
         for category, items in menu.items():
@@ -176,6 +178,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
