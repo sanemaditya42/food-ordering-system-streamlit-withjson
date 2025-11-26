@@ -1,3 +1,13 @@
+#Initial project setup with Streamlit structure
+Added user signup and login functionality
+Created menu categories and item list
+Implemented cart system and quantity selection
+Added order placement with JSON storage
+Created order history view for users
+Cleaned code and improved layout
+Updated README with project details
+Uploaded SRS and documentation
+
 import streamlit as st
 import json
 import os
@@ -150,3 +160,4 @@ else:
 
         if not found_orders:
             st.info("No order history found.")
+
