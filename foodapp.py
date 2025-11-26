@@ -23,6 +23,7 @@ def load_data(file):
             json.dump({}, f)
     with open(file, "r") as f:
         return json.load(f)
+Updated save_data function with clarity comment
 
 def save_data(file, data):
     with open(file, "w") as f:
@@ -175,6 +176,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
