@@ -27,6 +27,8 @@ def save_data(file, data):
         json.dump(data, f, indent=4)
 
 # ========== Authentication ==========
+Documented signup function for clarity
+
 def signup(username, password):
     users = load_data("users.json")
     if username in users:
@@ -171,6 +173,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
