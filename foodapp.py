@@ -143,6 +143,8 @@ else:
     # ----- ORDER HISTORY -----
     # Displaying previous orders for the logged-in user
     Added explanation comments to the order history and menu sections
+    Added comment describing order placement logic
+
 
 
     if choice == "Order History":
@@ -169,6 +171,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
