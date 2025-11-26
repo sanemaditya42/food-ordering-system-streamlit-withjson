@@ -141,6 +141,10 @@ else:
                 st.success("Order placed successfully! 🎉")
 
     # ----- ORDER HISTORY -----
+    # Displaying previous orders for the logged-in user
+    Added explanation comments to the order history and menu sections
+
+
     if choice == "Order History":
         st.subheader("📜 Your Orders")
         orders = load_data("orders.json")
@@ -165,6 +169,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
