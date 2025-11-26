@@ -15,6 +15,8 @@ import uuid
 from datetime import datetime
 
 # ========== Helper File Functions ==========
+    Added explanation for JSON load helper function
+
 def load_data(file):
     if not os.path.exists(file):
         with open(file, "w") as f:
@@ -173,6 +175,7 @@ Updated header comments
 Improved code formatting for readability
 Added descriptive comment to menu section
 Added comment explaining login function
+
 
 
 
